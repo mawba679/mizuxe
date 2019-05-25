@@ -41,6 +41,28 @@ body{
     height: 100%;
 }
 
+#authors img{
+    margin-top: -50px;
+}
+
+#authors .card .fab{
+    font-size: 25px;
+    color: #3292a6;
+}
+
+#authors .card:hover{
+    background: #3292a6;
+    color: #ffffff;
+}
+
+#authors .card:hover .fab{
+    color: #ffffff;
+}
+
+
+
+
+
 @media (max-width: 576px) {
     #showcase h1{
         font-size: 4rem;
